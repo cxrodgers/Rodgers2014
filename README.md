@@ -17,7 +17,7 @@ The scripts should be run in order: from lowest to highest numbered subdirectory
 
 
 Data
-====
+----
 The data is available at the CRCNS website http://crcns.org .
 You should first clone this repository. Then download the file `data.zip` from CRCNS, and unzip it into the `Rodgers2014` directory that was created
 when you cloned the repository. Thus, you will have directories like Rodgers2014/data/CR12B, Rodgers2014/data/CR20B, etc.
@@ -26,7 +26,7 @@ I wrote a FAQ on how to read the data on the CRCNS website. However, each script
 
 
 Required dependencies
-=====================
+---------------------
 I ran all of the code with the following Python modules installed. Other versions will probably work. (Exception: older versions of sklearn had a bug in the `class_weights` parameter to LogisticRegression, so some of the analyses of evoked responses will fail if you do not use the version listed here.)
 
 pandas 0.10.0
@@ -45,5 +45,5 @@ I ran all of my analyses within ipython, version 0.12.1 .
 
 
 Metadata
-========
+--------
 The scripts can produce figures (typically *.svg or *.pdf) and/or statistics, which are written out as text files begininning with 'stat__'. I have also provided a spreadsheet which links each figure panel with the script that produces it.
