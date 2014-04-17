@@ -5,7 +5,7 @@ This repository contains all of the code necessary to recapitulate the analyses 
 
 
 Format
-======
+------
 This repository consists of:
 
 * Numbered subdirectories. Each one contains a series of scripts of the form main1.py, main2.py, ..., relating to a specific type of analysis. (For instance, subdirectory 2-1-behavres contains all the scripts for analyzing the behavioral results.)
