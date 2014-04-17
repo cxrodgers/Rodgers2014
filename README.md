@@ -29,13 +29,13 @@ Required dependencies
 ---------------------
 I ran all of the code with the following Python modules installed. Other versions will probably work. (Exception: older versions of sklearn had a bug in the `class_weights` parameter to LogisticRegression, so some of the analyses of evoked responses will fail if you do not use the version listed here.)
 
-pandas 0.10.0
-numpy 1.6.1
-scipy 0.11.0
-matplotlib 1.2.0
-statsmodels 0.5.0.dev-1bbd4ca
-rpy2 2.2.5
-sklearn 0.12.1
+* pandas 0.10.0
+* numpy 1.6.1
+* scipy 0.11.0
+* matplotlib 1.2.0
+* statsmodels 0.5.0.dev-1bbd4ca
+* rpy2 2.2.5
+* sklearn 0.12.1
 
 I used Python 2.7.3 .
 
