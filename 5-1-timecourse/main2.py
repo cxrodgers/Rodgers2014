@@ -35,8 +35,7 @@ except NameError:
         bins=bins, meth=meth)
 
 # Assign prefblock
-hold_results = pandas.load(os.path.expanduser(
-    '~/Dropbox/figures/20130621_figfinal/02_hold/hold_results'))
+hold_results = pandas.load('../3-1-hold/hold_results')
 hold_results['prefblock'] = 'xx'
 hold_results['prefblock'][hold_results.mPB > hold_results.mLB]  = 'PB'
 hold_results['prefblock'][hold_results.mLB > hold_results.mPB]  = 'LB'
