@@ -1,0 +1,37 @@
+This repository contains a variety of objects all revolving around 
+filling OpenElectrophy databases with raw data from ns5 files, 
+and then interacting with those databases.
+
+
+Main Files (primary purpose: creating and interacting with OE)
+KlustaKwikIO : dumps spike times to KK format, should be put into OE/neo
+RecordingSession : reads and writes from folder with all the data
+car_subtract : preps data for spike sorting, should go into RecordingSession
+ns5 : handles reading from ns5 file
+plot_avg_lfp : add to RecordingSession
+spiketime_dump : add to RecordingSession
+
+
+Main file (make OE not required):
+SpikeTrainContainers : holds spike trains, should use Picker for this
+SpikeTrainEnsemble : holds spike trains
+
+
+
+Expt-specific ugliness (should go into a different repo just for me)
+RecordingSessionMaker : makes well-formed RecordingSessions, handles
+    the peculiarities of my experiments.
+add_btrial_numbers : adds btrial numbers, should be split into RecordingSession
+    and RecordingSessionMaker
+bcontrol : loads my data from bcontrol matfiles
+check_audio_waveforms : checks alignment
+AudioTools - detecting audio onsets
+
+
+
+Deprecated
+DataSession - Contains BehavingSyncer for syncing timestamps from behavior
+    and neural, should go into RecordingSessionMaker
+NeuralDataGrabber - Became RecordingSessionMaker
+SU_make_psth - Became SpikeTrainContainers and SpikeTrainEnsemble
+generate_timestamps - Added to RecordingSessionMaker

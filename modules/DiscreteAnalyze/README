@@ -1,0 +1,11 @@
+This module contains methods for analyzing discrete events in time,
+such as action potentials or trials.
+
+PointProc contains methods to smooth these events into analog signals
+over various time scales.
+
+EventSync contains methods to synchronize the clocks of two systems
+recording the same events. I paid special attention to the case in which
+an unknown number of events have been dropped from both event trains,
+and in which the duration of the data (~1hr) is many orders of magnitude
+larger than the timescale on which the events match up (~100ms).
