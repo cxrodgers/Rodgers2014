@@ -13,9 +13,9 @@ my.plot.font_embed()
 my.plot.publication_defaults()
 
 plots_to_make = [
-    #~ 'Timecourse in prefblock, split by region, locked to stimulus onset',
+    'Timecourse in prefblock, split by region, locked to stimulus onset',
     'Timecourse in prefblock, split by region, locked to entering center poke',
-    #~ 'Timecourse in prefblock, separately by region, following succesful nogo',
+    'Timecourse in prefblock, separately by region, following succesful nogo',
     ]
 
 # Bin params (t_start and t_stop should match folded params)
