@@ -76,11 +76,18 @@ def ulabel2dfolded(ulabel, trials_info=None, folding_kwargs=None,
             'label_kwargs': [{'stim_name':s} for s in LBPB.stimnames],
             }
     elif trial_picker_kwargs == 'by outcome':
-        label_kwargs = pandas.MultiIndex.from_tuples(
-            names=['stim_name', 'outcome'],
-            tuples=list(itertools.product(
-                LBPB.mixed_stimnames, ['hit', 'error', 'wrong_port'])))
-        labels = ['-'.join(t) for t in label_kwargs]
+        # Generate labels for each combination of stimulus name and outcome
+        labels = []
+        label_kwargs = []
+        for sname in LBPB.mixed_stimnames:
+            for outcome in ['hit', 'error', 'wrong_port']:
+                labels.append(sname + '-' + outcome)
+                label_kwargs.append({'stim_name': sname, 'outcome': outcome})
+        #~ label_kwargs = pandas.MultiIndex.from_tuples(
+            #~ names=['stim_name', 'outcome'],
+            #~ tuples=list(itertools.product(
+                #~ LBPB.mixed_stimnames, ['hit', 'error', 'wrong_port'])))
+        #~ labels = ['-'.join(t) for t in label_kwargs]
         trial_picker_kwargs = {'labels': labels, 'label_kwargs': label_kwargs,
             'nonrandom' : 0}
     elif trial_picker_kwargs == 'random hits by block':
