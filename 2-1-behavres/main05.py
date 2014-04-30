@@ -3,9 +3,9 @@
 import numpy as np
 import os.path
 import glob, pandas
-import scipy.io, my, my.plot, my.dataload
-from ns5_process import bcontrol
+import my, my.plot, my.dataload
 import matplotlib.pyplot as plt
+import scipy.stats
 
 dir = '../data/miscellaneous/catch_trial_task'
 
@@ -20,23 +20,15 @@ def my_binom_test(x0, n0, x1, n1):
     return scipy.stats.fisher_exact([[x0, n0-x0], [x1, n1-x1]])[1]
 
 catch_task_filenames = {
-    'CR21A': 'data_@TwoAltChoice_v4_chris_CR21A_120513a.mat',
-    'CR20B': 'data_@TwoAltChoice_v4_chris_CR20B_120613a.mat',
+    'CR21A': 'CR21A_trials_info',
+    'CR20B': 'CR20B_trials_info',
     }
 
+ratname2TI = {}
+
 for ratname, fn in catch_task_filenames.items():
-    ffn = os.path.join(dir, fn)
-    
-    # Load TI
-    bcl = bcontrol.Bcontrol_Loader(filename=ffn)
-    data = bcl.load()
-    TI = bcontrol.demung_trials_info(bcl)
-    
-    # Perf it up
-    subTI = TI[(TI.nonrandom == 0) & (TI.outcome != 'future_trial')]
-    
-    # no weird outcomes like current trial or whatev
-    assert subTI.outcome.isin(['hit', 'error', 'wrong_port']).all()
+    # Load trials info
+    subTI = pandas.load(os.path.join(dir, fn))
     
     # Form "sperf" which has nhits and ntrials for each stim name
     gobj = subTI.groupby('stim_name')['outcome']
