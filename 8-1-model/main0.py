@@ -37,7 +37,7 @@ N_REPS -- How many times to generate a new training and new testing set.
 """
 import datetime
 import os.path
-output_dir = '../data/miscellaneous'
+output_dir = '../data/miscellaneous/model'
 
 spooler = None
 

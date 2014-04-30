@@ -28,7 +28,7 @@ my.plot.font_embed()
 # These are the links to the large simulation used in the paper results
 # Replace the filename here with the newer simulation file if you rerun it
 data_dir = '../data/miscellaneous/model'
-filename = '20131121173602'
+filename = 'simulation'
 
 # Load results
 resdf = pandas.load(os.path.join(data_dir, filename + '_resdf'))
