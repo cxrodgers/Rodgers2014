@@ -10,14 +10,8 @@ import scipy.stats
 my.plot.font_embed()
 my.plot.publication_defaults()
 
+# Load the behavioral data
 TI_d = my.misc.pickle_load('../data/miscellaneous/zap/TI_d')
-session_db = pandas.load('../data/miscellaneous/zap/zap_session_db')
-
-# Which to include
-incl_session_db = session_db[session_db.include]
-
-# Apply the same filter to TI_d
-TI_d = dict([(k, v) for k, v in TI_d.items() if k in incl_session_db.index ])
 
 # Compute stats
 sstats = zap.compute_summary_stats(TI_d)
