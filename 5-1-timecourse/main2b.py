@@ -140,12 +140,9 @@ if 'Timecourse in prefblock, split by region, locked to entering center poke' in
     ## Load data
     locking_event = 'cpoke_start'
     after_trial_type = 'after_all'
-    try:
-        binneds
-    except NameError:
-        suffix, all_event_latencies, binneds = load_data(
-            locking_event=locking_event, after_trial_type=after_trial_type,
-            bins=bins, meth=meth)
+    suffix, all_event_latencies, binneds = load_data(
+        locking_event=locking_event, after_trial_type=after_trial_type,
+        bins=bins, meth=meth)
 
     ## Make the figure with the helper function
     f, ax, sdump = prefblock_timecourse_split_by_region(binneds, all_event_latencies)
@@ -175,12 +172,9 @@ if 'Timecourse in prefblock, separately by region, following succesful nogo' in 
     ## Load data
     locking_event = 'cpoke_start'
     after_trial_type = 'after_nogo_hit'
-    try:
-        binneds
-    except NameError:
-        suffix, all_event_latencies, binneds = load_data(
-            locking_event=locking_event, after_trial_type=after_trial_type,
-            bins=bins, meth=meth)
+    suffix, all_event_latencies, binneds = load_data(
+        locking_event=locking_event, after_trial_type=after_trial_type,
+        bins=bins, meth=meth)
 
     ## Zscored rates
     rates = mean_and_zscored_binneds2(binneds)
