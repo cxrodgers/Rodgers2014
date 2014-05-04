@@ -1,7 +1,4 @@
-# Simpler version of main2
-# Measure average firing rate in each outcome -- (hit, error, valid wrong port)
-# in both blocks.
-# Then test for population level effects on the normalized means.
+# Like main2, but now we do all types of errors
 import numpy as np, os.path
 import pandas, itertools
 from kkpandas import kkrs

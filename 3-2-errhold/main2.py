@@ -1,6 +1,3 @@
-# Simplified from previous code
-# Plots are almost done, not quite
-#
 # Measure average firing rate in each outcome -- (hit, error, valid wrong port)
 # in both blocks.
 # Then test for population level effects on the normalized means.
@@ -154,5 +151,7 @@ for region in ['PFC', 'A1']:
     with file('stat__anticipatory_effect_on_error_trials_%s' % region, 'w') as fi:
         fi.write(sdump_s)
 
+    # save
+    f.savefig('%s_rule_encoding_interference_trials.svg' % region)
 
 plt.show()
