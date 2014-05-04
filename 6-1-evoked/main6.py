@@ -17,145 +17,125 @@ hold_results['diffHz'] = (hold_results['mPB'] - hold_results['mLB']) / \
     hold_results['dt']
 
 
-
 # Load results and join on hold effect
 # This is only valid for indiv neurons
 analysis = 'sua_cue'
-res = pandas.load(
-    'decode_results_%s' % analysis
-    ).set_index('ulabel')
-res = res.join(hold_results[['diffHz', 'p_adj']])
-res = res.join(unit_db[['region', 'audresp']])
+
+# Previously there was a bug here where ulabel was set to index,
+# but this is non-unique
+res = pandas.load('decode_results_%s' % analysis)
+
+# Add in information about hold period, region, and auditory-responsiveness
+res = res.join(hold_results[['diffHz', 'p_adj']], on='ulabel')
+res = res.join(unit_db[['region', 'audresp']], on='ulabel')
+
+# Filter: keep only units for which there were 10 spikes total (across blocks)
+keep_indexes = res[['block', 'n_spikes', 'ulabel']].pivot_table(
+    rows='ulabel', cols='block', values='n_spikes').sum(1) >= 10
+keep_ulabels = keep_indexes.index[keep_indexes.values]
+res = my.pick_rows(res, ulabel=keep_ulabels)
+
+# Additional filtering: drop units with low trial count (in EITHER block)
+# Sometimes erratic results on the decoding analysis from such units
+MIN_TRIAL_COUNT = 25
+keep_indexes = res.pivot_table(
+    rows='ulabel', cols='block', values='n_trials').min(1) >= MIN_TRIAL_COUNT
+keep_ulabels = keep_indexes.index[keep_indexes.values]
+res = my.pick_rows(res, ulabel=keep_ulabels)
 
 # Assign prefblock
 res['prefblock'] = 'ns'
 res['prefblock'][res.p_adj.isnull()] = 'NA'
 res['prefblock'][(res.p_adj < .05) & (res.diffHz > 0)] = 'PB'
 res['prefblock'][(res.p_adj < .05) & (res.diffHz < 0)] = 'LB'
-decode_res = res.reset_index()
 
+# Rename
+decode_res = res.copy()
 
-# Drop units with low spike counts?
-# Here we count over the entire session
-# This was 20 in the hold period analysis, thoguh that was fewer df, etc.
-#~ MIN_SPIKE_COUNT = 5
-#~ decode_res = decode_res[decode_res.n_spikes >= MIN_SPIKE_COUNT]
-
-#~ MIN_TRIAL_COUNT = 25
-#~ decode_res = decode_res[decode_res.n_trials >= MIN_TRIAL_COUNT]
-
-
-# Pivot the decodability
+# Pivot the decodability in each block
 repvar = 'ulabel'
-metrics = ['auroc', 'cateq']
-metrics = ['cateq']
-piv = decode_res.pivot_table(rows=repvar, cols=['block'], values=metrics)    
+metric = 'cateq'
+piv = decode_res.pivot_table(rows=repvar, cols=['block'], values=metric)    
 
+# Join hold effect (quantified as log-ratio) and region
+tunings = piv.join(hold_results[['mPB', 'mLB', 'region']])
+tunings['lograt'] = np.log10(tunings['mPB'] / tunings['mLB'])
 
-YSCALE = 'linear'
-YSCALE = 'log'
+# Rename the tuning metrics
+tune_metrics = ['lc_tuneQ', 'pc_tuneQ']
+tunings = tunings.rename_axis({'lc': 'lc_tuneQ', 'pc': 'pc_tuneQ'})
 
+# Drop any units that weren't tested in both blocks (for instance, because
+# failed the trial count criterion in one block but not the other)
+# with the current filtering, this shouldn't happen anyway
+tunings = tunings.dropna()
 
-
-
-# Doesn't really matter which metric we use
-for metric in metrics:
-    # Join size of hold effect and tuning estimates
-    tunings = pandas.DataFrame(hold_results['diffHz'], columns=['hold_size'])
-    tunings['lograt'] = np.log10(hold_results.mPB / hold_results.mLB)
-    tunings['region'] = hold_results['region']
-    tunings['lc_tuneQ'] = piv[metric, 'lc']
-    tunings['pc_tuneQ'] = piv[metric, 'pc']
+for region in ['A1', 'PFC']:
+    subtunings = my.pick_rows(tunings, region=region)
     
-    # Tune metrics to plot
-    tune_metrics = ['lc_tuneQ', 'pc_tuneQ']
-
-    # Not all were tested
-    tunings = tunings.dropna()
-
-    for region in ['A1', 'PFC']:
-        subtunings = my.pick_rows(tunings, region=region)
+    # Correlate with hold effect
+    f, axa = plt.subplots(1, 2, figsize=(7,3))
+    f.subplots_adjust(left=.125, right=.95, wspace=.475)
+    for ax, tune_metric in zip(axa.flatten(), tune_metrics):
+        # Set x and y
+        x = subtunings[tune_metric].values
+        y = subtunings.lograt.values
         
-        # Correlate with hold effect
-        f, axa = plt.subplots(1, 2, figsize=(7,3))
-        f.subplots_adjust(left=.125, right=.95, wspace=.475)
-        for ax, tune_metric in zip(axa.flatten(), tune_metrics):
-            # Set x and y
-            x = subtunings[tune_metric].values
-            y = subtunings.lograt.values
-            
-            # Calculate trend
-            m, b, rval, pval, stderr = \
-                scipy.stats.stats.linregress(x.flatten(), y.flatten())
-            
-            # stats in title
-            ax.set_title('p=%0.3f r=%0.3f n=%d' % (pval, rval, len(x)), size='small')
-            
-            # Plot the points
-            if YSCALE == 'linear':
-                ax.plot(x, y, 'ko', mfc='none')
+        # Calculate trend
+        m, b, rval, pval, stderr = \
+            scipy.stats.stats.linregress(x.flatten(), y.flatten())
+        
+        # stats in title
+        #~ ax.set_title('p=%0.3f r=%0.3f n=%d' % (pval, rval, len(x)), size='small')
+        
+        # Plot the points
+        ax.plot(x, 10**y, 'ko', mfc='none')
+        ax.set_yscale('log')
 
-                # Limits
-                if region == 'A1':
-                    ax.set_yticks((-.8, -.4, 0, .4, .8))
-                    ax.set_ylim((-.8, .8))
-                if region == 'PFC':
-                    ax.set_yticks((-.8, -.4, 0, .4, .8))
-                    ax.set_ylim((-.8, .8))
+        # Y-limits
+        if region == 'A1':
+            ax.set_yticks((.1, .3, 1, 3, 10))
+            ax.set_yticklabels((.1, .3, 1, 3, 10))
+            ax.tick_params(which='minor', width=0)
+            ax.set_ylim((.1, 10))
+        if region == 'PFC':
+            ax.set_yticks((.1, .33, 1, 3, 10))
+            ax.set_yticklabels((.1, .33, 1, 3, 10))
+            ax.tick_params(which='minor', width=0)
+            ax.set_ylim((.1, 10))
 
-            else:
-                ax.plot(x, 10**y, 'ko', mfc='none')
-                ax.set_yscale('log')
+        # X-limits
+        if region == 'A1':
+            ax.set_xticks((.5, .6, .7, .8, .9))
+            ax.set_xlim((.5, 0.9))
+            textpos = .8, .2
+        if region == 'PFC':
+            ax.set_xticks((.5, .55, .6))
+            ax.set_xlim((.5, .6))
+            textpos = .575, .2
 
-                # Limits
-                if region == 'A1':
-                    #ax.set_yticks((-.8, -.4, 0, .4, .8))
-                    ax.set_yticks((.1, .3, 1, 3, 10))
-                    ax.set_yticklabels((.1, .3, 1, 3, 10))
-                    #plt.yticks((.1, .33, 1, 3.3, 10), (.1, .33, 1, 3.3, 10))
-                    ax.tick_params(which='minor', width=0)
-                    ax.set_ylim((.1, 10))
-                if region == 'PFC':
-                    #ax.set_yticks((-.8, -.4, 0, .4, .8))
-                    ax.set_yticks((.1, .33, 1, 3, 10))
-                    ax.set_yticklabels((.1, .33, 1, 3, 10))
-                    #plt.yticks((.1, .33, 1, 3.3, 10), (.1, .33, 1, 3.3, 10))
-                    ax.tick_params(which='minor', width=0)
-                    ax.set_ylim((.1, 10))
+        # Stats
+        ax.text(textpos[0], textpos[1], 'p=%0.3f\nr=%0.3f' % (pval, rval), 
+            ha='center', va='center')
 
-            # X-limits
-            if region == 'A1':
-                ax.set_xticks((.5, .6, .7, .8, .9))
-                #~ ax.set_xlim((.5, 0.9))
-                #~ tr_x0, tr_x1 = .5, .85
-            if region == 'PFC':
-                ax.set_xticks((.5, .55, .6))
-                #~ ax.set_xlim((.5, .6))
-                #~ tr_x0, tr_x1 = .5, .58
+        # Plot the trend
+        tr_x0, tr_x1 = ax.get_xlim()
+        tr_y0 = m * tr_x0 + b
+        tr_y1 = m * tr_x1 + b
+        ax.plot([tr_x0, tr_x1], [10**tr_y0, 10**tr_y1], 'g-')
+        
+        # Labels
+        if tune_metric == 'lc_tuneQ':
+            ax.set_xlabel("decodability of noise burst\nfrom neuron's firing")
+        elif tune_metric == 'pc_tuneQ':
+            ax.set_xlabel("decodability of warble\nfrom neuron's firing")
+        else:
+            ax.set_xlabel(tune_metric)
+        ax.set_ylabel('ratio of pre-stimulus spike rate\npitch disc. / local.')
+        
 
 
-            
-            # Plot the trend
-            tr_x0, tr_x1 = ax.get_xlim()
-            tr_y0 = m * tr_x0 + b
-            tr_y1 = m * tr_x1 + b
-            if YSCALE == 'linear':
-                ax.plot([tr_x0, tr_x1], [tr_y0, tr_y1], 'g-')
-            else:
-                ax.plot([tr_x0, tr_x1], [10**tr_y0, 10**tr_y1], 'g-')
-            
-            # Labels
-            if tune_metric == 'lc_tuneQ':
-                ax.set_xlabel("decodability of noise burst\nfrom neuron's firing")
-            elif tune_metric == 'pc_tuneQ':
-                ax.set_xlabel("decodability of warble\nfrom neuron's firing")
-            else:
-                ax.set_xlabel(tune_metric)
-            ax.set_ylabel('ratio of spike rate\npitch disc. / local.')
-            
-
-
-        #~ f.suptitle((region, metric))
-        f.savefig('hold_vs_tuneQ_%s_%s.svg' % (region, metric))
+    #~ f.suptitle((region, metric))
+    f.savefig('hold_vs_tuneQ_%s_%s.svg' % (region, metric))
 
 plt.show()
