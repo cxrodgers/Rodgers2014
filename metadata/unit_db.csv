@@ -1,0 +1,402 @@
+ulabel,ratname,session_name,unum,group,sortscore,audresp,audresp_t1,audresp_t2,session_include,region,sortqual,feature_drift,FR_drift,include
+CR12B_110421_001_behaving-302,CR12B,CR12B_110421_001_behaving,302,3,124.375,too brief,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110421_001_behaving-304,CR12B,CR12B_110421_001_behaving,304,3,147.875,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110421_001_behaving-305,CR12B,CR12B_110421_001_behaving,305,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110422_001_behaving-103,CR12B,CR12B_110422_001_behaving,103,1,220.625,nothing,0.0,0.0,True,A1,good,pass,insuff,False
+CR12B_110422_001_behaving-104,CR12B,CR12B_110422_001_behaving,104,1,244.75,weak,0.0095000000000022046,0.015500000000003534,True,A1,great,pass,insuff,False
+CR12B_110422_001_behaving-110,CR12B,CR12B_110422_001_behaving,110,1,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110422_001_behaving-112,CR12B,CR12B_110422_001_behaving,112,1,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110422_001_behaving-119,CR12B,CR12B_110422_001_behaving,119,1,254.75,good,0.012000000000002764,0.024500000000005559,True,A1,great,pass,pass,True
+CR12B_110422_001_behaving-120,CR12B,CR12B_110422_001_behaving,120,1,257.5,weak,0.020000000000004684,0.023500000000005496,True,A1,great,pass,insuff,False
+CR12B_110422_001_behaving-203,CR12B,CR12B_110422_001_behaving,203,2,163.875,good,0.011000000000002459,0.02200000000000497,True,A1,good,pass,pass,True
+CR12B_110422_001_behaving-209,CR12B,CR12B_110422_001_behaving,209,2,196.125,nothing,0.0,0.0,True,A1,good,pass,insuff,False
+CR12B_110422_001_behaving-251,CR12B,CR12B_110422_001_behaving,251,2,206.375,weak,0.0095000000000022046,0.020500000000004591,True,A1,good,pass,insuff,False
+CR12B_110422_001_behaving-253,CR12B,CR12B_110422_001_behaving,253,2,212.25,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110422_001_behaving-255,CR12B,CR12B_110422_001_behaving,255,2,268.25,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110422_001_behaving-256,CR12B,CR12B_110422_001_behaving,256,2,240.125,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110422_001_behaving-305,CR12B,CR12B_110422_001_behaving,305,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110422_001_behaving-314,CR12B,CR12B_110422_001_behaving,314,3,249.25,weak,0.0055000000000012686,0.012500000000002785,True,A1,great,pass,pass,True
+CR12B_110422_001_behaving-321,CR12B,CR12B_110422_001_behaving,321,3,228.5,weak,0.017000000000003804,0.02600000000000572,True,A1,great,pass,pass,True
+CR12B_110422_001_behaving-410,CR12B,CR12B_110422_001_behaving,410,4,145.875,too brief,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110423_001_behaving-104,CR12B,CR12B_110423_001_behaving,104,1,217.75,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110423_001_behaving-109,CR12B,CR12B_110423_001_behaving,109,1,255.0,too brief,0.0,0.0,True,A1,good,pass,insuff,False
+CR12B_110423_001_behaving-111,CR12B,CR12B_110423_001_behaving,111,1,239.25,good,0.0085000000000019626,0.032500000000007703,True,A1,great,pass,pass,True
+CR12B_110423_001_behaving-202,CR12B,CR12B_110423_001_behaving,202,2,299.25,weak,0.012500000000002785,0.022500000000004992,True,A1,great,pass,pass,True
+CR12B_110423_001_behaving-218,CR12B,CR12B_110423_001_behaving,218,2,292.75,good,0.0075000000000016581,0.02400000000000552,True,A1,great,pass,pass,True
+CR12B_110423_001_behaving-222,CR12B,CR12B_110423_001_behaving,222,2,250.5,sustained,0.016500000000003862,0.039500000000009139,True,A1,great,pass,pass,True
+CR12B_110423_001_behaving-223,CR12B,CR12B_110423_001_behaving,223,2,270.0,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110423_001_behaving-403,CR12B,CR12B_110423_001_behaving,403,4,164.5,weak,0.0065000000000014291,0.025500000000005719,True,A1,good,insuff,insuff,False
+CR12B_110425_001_behaving-111,CR12B,CR12B_110425_001_behaving,111,1,,,,,False,A1,poor,not_tested,not_tested,False
+CR12B_110425_001_behaving-206,CR12B,CR12B_110425_001_behaving,206,2,181.25,,,,False,A1,good,not_tested,not_tested,False
+CR12B_110426_001_behaving-108,CR12B,CR12B_110426_001_behaving,108,1,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110426_001_behaving-112,CR12B,CR12B_110426_001_behaving,112,1,227.75,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110426_001_behaving-229,CR12B,CR12B_110426_001_behaving,229,2,222.75,good,0.0095000000000022046,0.02600000000000572,True,A1,great,pass,pass,True
+CR12B_110426_001_behaving-230,CR12B,CR12B_110426_001_behaving,230,2,203.25,weak,0.010500000000002329,0.02200000000000497,True,A1,great,pass,pass,True
+CR12B_110426_001_behaving-308,CR12B,CR12B_110426_001_behaving,308,3,173.5,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110426_001_behaving-319,CR12B,CR12B_110426_001_behaving,319,3,251.25,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110426_001_behaving-320,CR12B,CR12B_110426_001_behaving,320,3,234.25,good,0.011500000000002612,0.032500000000007703,True,A1,great,pass,fail,False
+CR12B_110426_001_behaving-321,CR12B,CR12B_110426_001_behaving,321,3,198.5,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110426_001_behaving-419,CR12B,CR12B_110426_001_behaving,419,4,157.75,weak,0.014000000000003216,0.019500000000004469,True,A1,great,pass,pass,True
+CR12B_110428_001_behaving-106,CR12B,CR12B_110428_001_behaving,106,1,225.75,weak,0.012000000000002764,0.020500000000004591,True,A1,good,pass,pass,True
+CR12B_110428_001_behaving-113,CR12B,CR12B_110428_001_behaving,113,1,265.25,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110428_001_behaving-202,CR12B,CR12B_110428_001_behaving,202,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110428_001_behaving-212,CR12B,CR12B_110428_001_behaving,212,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110428_001_behaving-305,CR12B,CR12B_110428_001_behaving,305,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110428_001_behaving-317,CR12B,CR12B_110428_001_behaving,317,3,257.625,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110428_001_behaving-327,CR12B,CR12B_110428_001_behaving,327,3,267.375,good,0.012000000000002764,0.029000000000006569,True,A1,good,pass,pass,True
+CR12B_110428_001_behaving-330,CR12B,CR12B_110428_001_behaving,330,3,242.875,weak,0.0055000000000012686,0.012500000000002785,True,A1,great,pass,pass,True
+CR12B_110428_001_behaving-332,CR12B,CR12B_110428_001_behaving,332,3,223.5,nothing,0.0,0.0,True,A1,great,fail,pass,False
+CR12B_110428_001_behaving-333,CR12B,CR12B_110428_001_behaving,333,3,173.875,good,0.013500000000003056,0.020500000000004591,True,A1,great,fail,pass,False
+CR12B_110428_001_behaving-410,CR12B,CR12B_110428_001_behaving,410,4,214.25,too brief,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110428_001_behaving-419,CR12B,CR12B_110428_001_behaving,419,4,226.125,nothing,0.0,0.0,True,A1,good,pass,insuff,False
+CR12B_110428_001_behaving-427,CR12B,CR12B_110428_001_behaving,427,4,156.875,good,0.011000000000002459,0.019500000000004469,True,A1,great,pass,pass,True
+CR12B_110428_001_behaving-428,CR12B,CR12B_110428_001_behaving,428,4,274.875,good,0.010500000000002329,0.02200000000000497,True,A1,good,pass,pass,True
+CR12B_110428_001_behaving-429,CR12B,CR12B_110428_001_behaving,429,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110428_001_behaving-430,CR12B,CR12B_110428_001_behaving,430,4,264.375,good,0.0075000000000016581,0.033500000000007496,True,A1,great,pass,pass,True
+CR12B_110429_001_behaving-113,CR12B,CR12B_110429_001_behaving,113,1,118.0,good,0.013500000000003056,0.02200000000000497,True,A1,great,pass,pass,True
+CR12B_110429_001_behaving-202,CR12B,CR12B_110429_001_behaving,202,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-203,CR12B,CR12B_110429_001_behaving,203,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-214,CR12B,CR12B_110429_001_behaving,214,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-234,CR12B,CR12B_110429_001_behaving,234,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-258,CR12B,CR12B_110429_001_behaving,258,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-262,CR12B,CR12B_110429_001_behaving,262,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-265,CR12B,CR12B_110429_001_behaving,265,2,220.5,sustained,0.0075000000000016581,0.034500000000007802,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-267,CR12B,CR12B_110429_001_behaving,267,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-268,CR12B,CR12B_110429_001_behaving,268,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-269,CR12B,CR12B_110429_001_behaving,269,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-328,CR12B,CR12B_110429_001_behaving,328,3,240.125,good,0.0055000000000012686,0.01750000000000395,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-338,CR12B,CR12B_110429_001_behaving,338,3,268.75,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-340,CR12B,CR12B_110429_001_behaving,340,3,328.0,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-342,CR12B,CR12B_110429_001_behaving,342,3,306.0,too brief,0.0,0.0,True,A1,good,fail,pass,False
+CR12B_110429_001_behaving-344,CR12B,CR12B_110429_001_behaving,344,3,247.125,good,0.01750000000000395,0.033000000000007544,True,A1,good,fail,pass,False
+CR12B_110429_001_behaving-406,CR12B,CR12B_110429_001_behaving,406,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-410,CR12B,CR12B_110429_001_behaving,410,4,268.625,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-426,CR12B,CR12B_110429_001_behaving,426,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-433,CR12B,CR12B_110429_001_behaving,433,4,298.25,weak,0.016000000000003699,0.020000000000004684,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-439,CR12B,CR12B_110429_001_behaving,439,4,273.375,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110429_001_behaving-440,CR12B,CR12B_110429_001_behaving,440,4,217.875,sustained,0.0085000000000019626,0.038000000000008562,True,A1,good,pass,fail,False
+CR12B_110429_001_behaving-441,CR12B,CR12B_110429_001_behaving,441,4,171.625,good,0.0065000000000014291,0.02200000000000497,True,A1,good,fail,pass,False
+CR12B_110429_001_behaving-442,CR12B,CR12B_110429_001_behaving,442,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110429_001_behaving-443,CR12B,CR12B_110429_001_behaving,443,4,285.75,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110502_001_behaving-305,CR12B,CR12B_110502_001_behaving,305,3,,,,,False,A1,poor,not_tested,not_tested,False
+CR12B_110502_001_behaving-318,CR12B,CR12B_110502_001_behaving,318,3,206.125,,,,False,A1,great,not_tested,not_tested,False
+CR12B_110502_001_behaving-320,CR12B,CR12B_110502_001_behaving,320,3,,,,,False,A1,poor,not_tested,not_tested,False
+CR12B_110502_001_behaving-321,CR12B,CR12B_110502_001_behaving,321,3,142.0,,,,False,A1,great,not_tested,not_tested,False
+CR12B_110502_001_behaving-405,CR12B,CR12B_110502_001_behaving,405,4,237.75,,,,False,A1,great,not_tested,not_tested,False
+CR12B_110502_001_behaving-406,CR12B,CR12B_110502_001_behaving,406,4,213.25,,,,False,A1,great,not_tested,not_tested,False
+CR12B_110502_001_behaving-409,CR12B,CR12B_110502_001_behaving,409,4,224.0,,,,False,A1,great,not_tested,not_tested,False
+CR12B_110502_001_behaving-414,CR12B,CR12B_110502_001_behaving,414,4,,,,,False,A1,poor,not_tested,not_tested,False
+CR12B_110502_001_behaving-427,CR12B,CR12B_110502_001_behaving,427,4,139.25,,,,False,A1,great,not_tested,not_tested,False
+CR12B_110503_001_behaving-310,CR12B,CR12B_110503_001_behaving,310,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110503_001_behaving-402,CR12B,CR12B_110503_001_behaving,402,4,208.75,nothing,0.0,0.0,True,A1,great,pass,insuff,False
+CR12B_110503_001_behaving-403,CR12B,CR12B_110503_001_behaving,403,4,211.875,weak,0.0045000000000010544,0.011000000000002459,True,A1,good,pass,insuff,False
+CR12B_110503_001_behaving-404,CR12B,CR12B_110503_001_behaving,404,4,264.25,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110503_001_behaving-413,CR12B,CR12B_110503_001_behaving,413,4,142.875,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110503_001_behaving-430,CR12B,CR12B_110503_001_behaving,430,4,227.875,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110504_001_behaving-317,CR12B,CR12B_110504_001_behaving,317,3,171.25,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110504_001_behaving-318,CR12B,CR12B_110504_001_behaving,318,3,245.75,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110505_001_behaving-304,CR12B,CR12B_110505_001_behaving,304,3,228.875,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110505_001_behaving-315,CR12B,CR12B_110505_001_behaving,315,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110505_001_behaving-324,CR12B,CR12B_110505_001_behaving,324,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110505_001_behaving-335,CR12B,CR12B_110505_001_behaving,335,3,177.375,good,0.0085000000000019626,0.016500000000003862,True,A1,good,pass,pass,True
+CR12B_110505_001_behaving-337,CR12B,CR12B_110505_001_behaving,337,3,239.25,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110505_001_behaving-339,CR12B,CR12B_110505_001_behaving,339,3,170.625,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110505_001_behaving-340,CR12B,CR12B_110505_001_behaving,340,3,258.375,nothing,0.0,0.0,True,A1,good,fail,pass,False
+CR12B_110505_001_behaving-402,CR12B,CR12B_110505_001_behaving,402,4,116.125,too brief,0.0,0.0,True,A1,great,insuff,insuff,False
+CR12B_110505_001_behaving-405,CR12B,CR12B_110505_001_behaving,405,4,124.125,lasts to end,0.0,0.0,True,A1,great,pass,pass,True
+CR12B_110507_001_behaving-303,CR12B,CR12B_110507_001_behaving,303,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110507_001_behaving-305,CR12B,CR12B_110507_001_behaving,305,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110507_001_behaving-313,CR12B,CR12B_110507_001_behaving,313,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110507_001_behaving-330,CR12B,CR12B_110507_001_behaving,330,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110507_001_behaving-415,CR12B,CR12B_110507_001_behaving,415,4,130.0,nothing,0.0,0.0,True,A1,great,pass,fail,False
+CR12B_110508_001_behaving-213,CR12B,CR12B_110508_001_behaving,213,2,171.875,too brief,0.0,0.0,True,A1,great,insuff,insuff,False
+CR12B_110508_001_behaving-302,CR12B,CR12B_110508_001_behaving,302,3,229.25,weak,0.014000000000003216,0.02200000000000497,True,A1,good,pass,pass,True
+CR12B_110508_001_behaving-320,CR12B,CR12B_110508_001_behaving,320,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110508_001_behaving-333,CR12B,CR12B_110508_001_behaving,333,3,230.25,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110508_001_behaving-334,CR12B,CR12B_110508_001_behaving,334,3,247.875,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110508_001_behaving-403,CR12B,CR12B_110508_001_behaving,403,4,206.0,sustained,0.0050000000000011572,0.039500000000009139,True,A1,good,insuff,insuff,False
+CR12B_110511_001_behaving-114,CR12B,CR12B_110511_001_behaving,114,1,162.875,good,0.0045000000000010544,0.027500000000006262,True,A1,great,pass,pass,True
+CR12B_110511_001_behaving-202,CR12B,CR12B_110511_001_behaving,202,2,227.0,good,0.0045000000000010544,0.020000000000004684,True,A1,great,pass,pass,True
+CR12B_110511_001_behaving-221,CR12B,CR12B_110511_001_behaving,221,2,201.0,good,0.0045000000000010544,0.021500000000004918,True,A1,great,pass,pass,True
+CR12B_110511_001_behaving-302,CR12B,CR12B_110511_001_behaving,302,3,214.75,weak,0.0055000000000012686,0.014000000000003216,True,A1,great,pass,insuff,False
+CR12B_110511_001_behaving-406,CR12B,CR12B_110511_001_behaving,406,4,232.375,lasts to end,0.0,0.0,True,A1,good,pass,pass,True
+CR12B_110511_001_behaving-415,CR12B,CR12B_110511_001_behaving,415,4,147.0,sustained,0.0045000000000010544,0.039500000000009139,True,A1,great,pass,pass,True
+CR12B_110514_001_behaving-303,CR12B,CR12B_110514_001_behaving,303,3,161.25,sustained,0.0075000000000016581,0.035000000000007747,True,A1,great,pass,fail,False
+CR12B_110517_001_behaving-107,CR12B,CR12B_110517_001_behaving,107,1,171.25,weak,0.0075000000000016581,0.02400000000000552,True,A1,good,pass,insuff,False
+CR12B_110517_001_behaving-108,CR12B,CR12B_110517_001_behaving,108,1,195.25,weak,0.0070000000000015406,0.019500000000004469,True,A1,good,pass,insuff,False
+CR12B_110517_001_behaving-222,CR12B,CR12B_110517_001_behaving,222,2,112.125,good,0.0045000000000010544,0.018500000000004201,True,A1,great,pass,pass,True
+CR12B_110517_001_behaving-406,CR12B,CR12B_110517_001_behaving,406,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR12B_110517_001_behaving-409,CR12B,CR12B_110517_001_behaving,409,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110727_001_behaving-206,CR17B,CR17B_110727_001_behaving,206,2,124.75,weak,0.010000000000002257,0.019000000000004274,True,A1,great,pass,insuff,False
+CR17B_110727_001_behaving-209,CR17B,CR17B_110727_001_behaving,209,2,145.5,weak,0.015000000000003394,0.018500000000004201,True,A1,great,pass,pass,True
+CR17B_110727_001_behaving-410,CR17B,CR17B_110727_001_behaving,410,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110728_001_behaving-202,CR17B,CR17B_110728_001_behaving,202,2,245.125,weak,0.011500000000002612,0.028500000000006583,True,A1,good,pass,pass,True
+CR17B_110728_001_behaving-209,CR17B,CR17B_110728_001_behaving,209,2,232.625,weak,0.011000000000002459,0.032000000000007342,True,A1,great,pass,pass,True
+CR17B_110728_001_behaving-217,CR17B,CR17B_110728_001_behaving,217,2,232.875,weak,0.019500000000004469,0.025500000000005719,True,A1,great,pass,pass,True
+CR17B_110728_001_behaving-410,CR17B,CR17B_110728_001_behaving,410,4,90.5,nothing,0.0,0.0,True,A1,great,pass,fail,False
+CR17B_110729_001_behaving-211,CR17B,CR17B_110729_001_behaving,211,2,,,,,False,A1,poor,not_tested,not_tested,False
+CR17B_110729_001_behaving-214,CR17B,CR17B_110729_001_behaving,214,2,254.25,,,,False,A1,good,not_tested,not_tested,False
+CR17B_110729_001_behaving-307,CR17B,CR17B_110729_001_behaving,307,3,134.625,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110729_001_behaving-308,CR17B,CR17B_110729_001_behaving,308,3,165.625,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110729_001_behaving-425,CR17B,CR17B_110729_001_behaving,425,4,94.125,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110729_001_behaving-428,CR17B,CR17B_110729_001_behaving,428,4,,,,,False,A1,poor,not_tested,not_tested,False
+CR17B_110729_001_behaving-430,CR17B,CR17B_110729_001_behaving,430,4,287.25,,,,False,A1,good,not_tested,not_tested,False
+CR17B_110729_001_behaving-431,CR17B,CR17B_110729_001_behaving,431,4,240.75,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110731_001_behaving-108,CR17B,CR17B_110731_001_behaving,108,1,119.125,lasts too long,0.0,0.0,True,A1,great,pass,insuff,False
+CR17B_110731_001_behaving-215,CR17B,CR17B_110731_001_behaving,215,2,60.375,weak,0.021000000000004682,0.028000000000006253,True,A1,great,pass,pass,True
+CR17B_110731_001_behaving-317,CR17B,CR17B_110731_001_behaving,317,3,82.875,weak,0.0095000000000022046,0.017000000000003804,True,A1,great,pass,pass,True
+CR17B_110731_001_behaving-318,CR17B,CR17B_110731_001_behaving,318,3,160.875,weak,0.010000000000002257,0.02200000000000497,True,A1,great,pass,pass,True
+CR17B_110731_001_behaving-406,CR17B,CR17B_110731_001_behaving,406,4,151.25,good,0.0050000000000011572,0.020500000000004591,True,A1,great,pass,pass,True
+CR17B_110801_001_behaving-106,CR17B,CR17B_110801_001_behaving,106,1,132.625,nothing,0.0,0.0,True,A1,great,pass,insuff,False
+CR17B_110801_001_behaving-114,CR17B,CR17B_110801_001_behaving,114,1,201.25,sustained,0.0080000000000018095,0.039500000000009139,True,A1,great,pass,pass,True
+CR17B_110801_001_behaving-115,CR17B,CR17B_110801_001_behaving,115,1,170.5,lasts too long,0.0,0.0,True,A1,great,pass,pass,True
+CR17B_110801_001_behaving-203,CR17B,CR17B_110801_001_behaving,203,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110801_001_behaving-204,CR17B,CR17B_110801_001_behaving,204,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110801_001_behaving-306,CR17B,CR17B_110801_001_behaving,306,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110801_001_behaving-409,CR17B,CR17B_110801_001_behaving,409,4,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110802_001_behaving-112,CR17B,CR17B_110802_001_behaving,112,1,238.75,,,,False,A1,good,not_tested,not_tested,False
+CR17B_110802_001_behaving-115,CR17B,CR17B_110802_001_behaving,115,1,,,,,False,A1,poor,not_tested,not_tested,False
+CR17B_110802_001_behaving-212,CR17B,CR17B_110802_001_behaving,212,2,205.375,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110802_001_behaving-218,CR17B,CR17B_110802_001_behaving,218,2,187.0,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110802_001_behaving-326,CR17B,CR17B_110802_001_behaving,326,3,276.75,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110802_001_behaving-329,CR17B,CR17B_110802_001_behaving,329,3,180.875,,,,False,A1,great,not_tested,not_tested,False
+CR17B_110803_001_behaving-114,CR17B,CR17B_110803_001_behaving,114,1,112.75,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR17B_110803_001_behaving-213,CR17B,CR17B_110803_001_behaving,213,2,192.125,weak,0.0060000000000013523,0.027000000000006318,True,A1,great,pass,insuff,False
+CR17B_110803_001_behaving-339,CR17B,CR17B_110803_001_behaving,339,3,229.625,lasts to end,0.0,0.0,True,A1,good,pass,pass,True
+CR17B_110803_001_behaving-340,CR17B,CR17B_110803_001_behaving,340,3,256.25,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR17B_110803_001_behaving-342,CR17B,CR17B_110803_001_behaving,342,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110803_001_behaving-343,CR17B,CR17B_110803_001_behaving,343,3,270.25,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR17B_110804_001_behaving-309,CR17B,CR17B_110804_001_behaving,309,3,221.625,weak,0.014000000000003216,0.018500000000004201,True,A1,good,fail,insuff,False
+CR17B_110804_001_behaving-315,CR17B,CR17B_110804_001_behaving,315,3,194.625,too brief,0.0,0.0,True,A1,good,pass,insuff,False
+CR17B_110804_001_behaving-329,CR17B,CR17B_110804_001_behaving,329,3,237.0,lasts to end,0.0,0.0,True,A1,great,pass,pass,True
+CR17B_110804_001_behaving-330,CR17B,CR17B_110804_001_behaving,330,3,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110804_001_behaving-332,CR17B,CR17B_110804_001_behaving,332,3,267.5,weak,0.0080000000000018095,0.015000000000003394,True,A1,great,pass,pass,True
+CR17B_110805_001_behaving-217,CR17B,CR17B_110805_001_behaving,217,2,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110805_001_behaving-310,CR17B,CR17B_110805_001_behaving,310,3,94.375,nothing,0.0,0.0,True,A1,great,insuff,insuff,False
+CR17B_110806_001_behaving-313,CR17B,CR17B_110806_001_behaving,313,3,196.5,weak,0.0060000000000013523,0.017000000000003804,True,A1,good,pass,pass,True
+CR17B_110808_001_behaving-106,CR17B,CR17B_110808_001_behaving,106,1,,,,,True,A1,poor,not_tested,not_tested,False
+CR17B_110808_001_behaving-203,CR17B,CR17B_110808_001_behaving,203,2,127.625,weak,0.0045000000000010544,0.011500000000002612,True,A1,great,pass,pass,True
+CR17B_110808_001_behaving-207,CR17B,CR17B_110808_001_behaving,207,2,238.75,weak,0.0045000000000010544,0.022500000000004992,True,A1,good,insuff,insuff,False
+CR20B_120531_001_behaving-203,CR20B,CR20B_120531_001_behaving,203,2,90.875,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-204,CR20B,CR20B_120531_001_behaving,204,2,175.0,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-208,CR20B,CR20B_120531_001_behaving,208,2,136.625,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-210,CR20B,CR20B_120531_001_behaving,210,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120531_001_behaving-213,CR20B,CR20B_120531_001_behaving,213,2,118.875,weak,0.0055000000000012686,0.011500000000002612,True,PFC,great,pass,insuff,False
+CR20B_120531_001_behaving-306,CR20B,CR20B_120531_001_behaving,306,3,213.5,too brief,0.0,0.0,True,PFC,good,fail,insuff,False
+CR20B_120531_001_behaving-402,CR20B,CR20B_120531_001_behaving,402,4,160.5,weak,0.020500000000004591,0.02400000000000552,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-406,CR20B,CR20B_120531_001_behaving,406,4,241.75,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-416,CR20B,CR20B_120531_001_behaving,416,4,227.0,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR20B_120531_001_behaving-426,CR20B,CR20B_120531_001_behaving,426,4,217.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-427,CR20B,CR20B_120531_001_behaving,427,4,159.25,weak,0.014000000000003216,0.018500000000004201,True,PFC,great,pass,pass,True
+CR20B_120531_001_behaving-605,CR20B,CR20B_120531_001_behaving,605,6,183.0,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR20B_120531_001_behaving-613,CR20B,CR20B_120531_001_behaving,613,6,242.5,weak,0.013500000000003056,0.021000000000004682,True,A1,good,pass,pass,True
+CR20B_120531_001_behaving-707,CR20B,CR20B_120531_001_behaving,707,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120531_001_behaving-718,CR20B,CR20B_120531_001_behaving,718,7,220.625,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR20B_120531_001_behaving-728,CR20B,CR20B_120531_001_behaving,728,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120531_001_behaving-732,CR20B,CR20B_120531_001_behaving,732,7,245.0,weak,0.02400000000000552,0.031000000000007005,True,A1,good,pass,pass,True
+CR20B_120531_001_behaving-733,CR20B,CR20B_120531_001_behaving,733,7,250.25,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR20B_120531_001_behaving-734,CR20B,CR20B_120531_001_behaving,734,7,206.25,too brief,0.0,0.0,True,A1,good,pass,pass,True
+CR20B_120531_001_behaving-809,CR20B,CR20B_120531_001_behaving,809,8,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120602_001_behaving-204,CR20B,CR20B_120602_001_behaving,204,2,226.75,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120602_001_behaving-216,CR20B,CR20B_120602_001_behaving,216,2,160.375,weak,0.018500000000004201,0.031000000000007005,True,PFC,great,pass,fail,False
+CR20B_120602_001_behaving-222,CR20B,CR20B_120602_001_behaving,222,2,162.5,weak,0.01800000000000412,0.021500000000004918,True,PFC,great,pass,pass,True
+CR20B_120602_001_behaving-223,CR20B,CR20B_120602_001_behaving,223,2,213.5,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120602_001_behaving-404,CR20B,CR20B_120602_001_behaving,404,4,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120602_001_behaving-414,CR20B,CR20B_120602_001_behaving,414,4,212.5,too brief,0.0,0.0,True,PFC,great,pass,fail,False
+CR20B_120602_001_behaving-437,CR20B,CR20B_120602_001_behaving,437,4,230.875,weak,0.016500000000003862,0.023000000000005214,True,PFC,good,pass,pass,True
+CR20B_120602_001_behaving-438,CR20B,CR20B_120602_001_behaving,438,4,219.0,weak,0.016000000000003699,0.020500000000004591,True,PFC,great,pass,pass,True
+CR20B_120602_001_behaving-439,CR20B,CR20B_120602_001_behaving,439,4,187.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120602_001_behaving-440,CR20B,CR20B_120602_001_behaving,440,4,231.625,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR20B_120602_001_behaving-606,CR20B,CR20B_120602_001_behaving,606,6,199.25,nothing,0.0,0.0,True,A1,good,pass,pass,True
+CR20B_120602_001_behaving-612,CR20B,CR20B_120602_001_behaving,612,6,175.0,good,0.0060000000000013523,0.033000000000007544,True,A1,great,pass,pass,True
+CR20B_120602_001_behaving-712,CR20B,CR20B_120602_001_behaving,712,7,162.5,sustained,0.0055000000000012686,0.039500000000009139,True,A1,great,pass,pass,True
+CR20B_120602_001_behaving-811,CR20B,CR20B_120602_001_behaving,811,8,176.625,weak,0.010500000000002329,0.017000000000003804,True,A1,good,pass,pass,True
+CR20B_120603_001_behaving-213,CR20B,CR20B_120603_001_behaving,213,2,109.625,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120603_001_behaving-405,CR20B,CR20B_120603_001_behaving,405,4,211.75,weak,0.016500000000003862,0.025500000000005719,True,PFC,great,pass,pass,True
+CR20B_120603_001_behaving-406,CR20B,CR20B_120603_001_behaving,406,4,131.5,weak,0.015500000000003534,0.023000000000005214,True,PFC,great,pass,pass,True
+CR20B_120604_001_behaving-212,CR20B,CR20B_120604_001_behaving,212,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120604_001_behaving-402,CR20B,CR20B_120604_001_behaving,402,4,216.625,weak,0.0045000000000010544,0.012000000000002764,True,PFC,great,pass,pass,True
+CR20B_120604_001_behaving-405,CR20B,CR20B_120604_001_behaving,405,4,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120604_001_behaving-411,CR20B,CR20B_120604_001_behaving,411,4,177.625,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR20B_120604_001_behaving-413,CR20B,CR20B_120604_001_behaving,413,4,220.5,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120604_001_behaving-414,CR20B,CR20B_120604_001_behaving,414,4,187.375,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120604_001_behaving-416,CR20B,CR20B_120604_001_behaving,416,4,152.75,weak,0.018500000000004201,0.023000000000005214,True,PFC,great,pass,pass,True
+CR20B_120604_001_behaving-423,CR20B,CR20B_120604_001_behaving,423,4,206.375,weak,0.016000000000003699,0.02200000000000497,True,PFC,great,pass,pass,True
+CR20B_120605_001_behaving-205,CR20B,CR20B_120605_001_behaving,205,2,204.875,weak,0.015500000000003534,0.021000000000004682,True,PFC,great,pass,pass,True
+CR20B_120605_001_behaving-206,CR20B,CR20B_120605_001_behaving,206,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120605_001_behaving-209,CR20B,CR20B_120605_001_behaving,209,2,187.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120605_001_behaving-218,CR20B,CR20B_120605_001_behaving,218,2,146.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120605_001_behaving-405,CR20B,CR20B_120605_001_behaving,405,4,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120605_001_behaving-409,CR20B,CR20B_120605_001_behaving,409,4,186.0,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120605_001_behaving-411,CR20B,CR20B_120605_001_behaving,411,4,258.0,weak,0.0080000000000018095,0.012000000000002764,True,PFC,good,pass,pass,True
+CR20B_120605_001_behaving-603,CR20B,CR20B_120605_001_behaving,603,6,91.625,good,0.0065000000000014291,0.020500000000004591,True,A1,great,pass,pass,True
+CR20B_120606_004_behaving-208,CR20B,CR20B_120606_004_behaving,208,2,140.5,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120606_004_behaving-215,CR20B,CR20B_120606_004_behaving,215,2,159.75,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120606_004_behaving-411,CR20B,CR20B_120606_004_behaving,411,4,221.5,weak,0.0055000000000012686,0.011500000000002612,True,PFC,good,pass,pass,True
+CR20B_120606_004_behaving-610,CR20B,CR20B_120606_004_behaving,610,6,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120606_004_behaving-706,CR20B,CR20B_120606_004_behaving,706,7,186.25,weak,0.0080000000000018095,0.014000000000003216,True,A1,good,pass,pass,True
+CR20B_120606_004_behaving-710,CR20B,CR20B_120606_004_behaving,710,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120606_004_behaving-716,CR20B,CR20B_120606_004_behaving,716,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120606_004_behaving-809,CR20B,CR20B_120606_004_behaving,809,8,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120609_001_behaving-208,CR20B,CR20B_120609_001_behaving,208,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120609_001_behaving-211,CR20B,CR20B_120609_001_behaving,211,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR20B_120609_001_behaving-803,CR20B,CR20B_120609_001_behaving,803,8,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120609_001_behaving-804,CR20B,CR20B_120609_001_behaving,804,8,,,,,True,A1,poor,not_tested,not_tested,False
+CR20B_120612_001_behaving-204,CR20B,CR20B_120612_001_behaving,204,2,206.25,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR20B_120612_001_behaving-207,CR20B,CR20B_120612_001_behaving,207,2,227.25,weak,0.0065000000000014291,0.01750000000000395,True,PFC,great,pass,pass,True
+CR20B_120612_001_behaving-208,CR20B,CR20B_120612_001_behaving,208,2,157.0,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR20B_120612_001_behaving-402,CR20B,CR20B_120612_001_behaving,402,4,186.125,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120612_001_behaving-403,CR20B,CR20B_120612_001_behaving,403,4,143.0,weak,0.022500000000004992,0.02600000000000572,True,PFC,great,pass,pass,True
+CR20B_120612_001_behaving-415,CR20B,CR20B_120612_001_behaving,415,4,204.0,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120612_001_behaving-419,CR20B,CR20B_120612_001_behaving,419,4,150.625,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR20B_120612_001_behaving-420,CR20B,CR20B_120612_001_behaving,420,4,110.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR21A_120503_004_behaving-103,CR21A,CR21A_120503_004_behaving,103,1,271.5,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR21A_120503_004_behaving-115,CR21A,CR21A_120503_004_behaving,115,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR21A_120503_004_behaving-121,CR21A,CR21A_120503_004_behaving,121,1,258.75,weak,0.0080000000000018095,0.012000000000002764,True,PFC,great,pass,pass,True
+CR21A_120503_004_behaving-127,CR21A,CR21A_120503_004_behaving,127,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR21A_120503_004_behaving-128,CR21A,CR21A_120503_004_behaving,128,1,232.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR21A_120503_004_behaving-516,CR21A,CR21A_120503_004_behaving,516,5,205.875,weak,0.011000000000002459,0.016500000000003862,True,A1,great,pass,pass,True
+CR21A_120503_004_behaving-604,CR21A,CR21A_120503_004_behaving,604,6,156.625,sustained,0.0050000000000011572,0.039500000000009139,True,A1,great,pass,pass,True
+CR21A_120504_004_behaving-102,CR21A,CR21A_120504_004_behaving,102,1,236.625,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR21A_120504_004_behaving-124,CR21A,CR21A_120504_004_behaving,124,1,102.625,weak,0.016000000000003699,0.034000000000007878,True,PFC,great,pass,pass,True
+CR21A_120505_003_behaving-111,CR21A,CR21A_120505_003_behaving,111,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR21A_120505_003_behaving-508,CR21A,CR21A_120505_003_behaving,508,5,209.125,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR21A_120507_003_behaving-515,CR21A,CR21A_120507_003_behaving,515,5,,,,,True,A1,poor,not_tested,not_tested,False
+CR21A_120507_003_behaving-703,CR21A,CR21A_120507_003_behaving,703,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR21A_120507_003_behaving-713,CR21A,CR21A_120507_003_behaving,713,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR21A_120507_003_behaving-717,CR21A,CR21A_120507_003_behaving,717,7,143.0,lasts too long,0.0,0.0,True,A1,great,pass,pass,True
+CR21A_120508_001_behaving-102,CR21A,CR21A_120508_001_behaving,102,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR21A_120508_001_behaving-105,CR21A,CR21A_120508_001_behaving,105,1,169.875,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR21A_120508_001_behaving-705,CR21A,CR21A_120508_001_behaving,705,7,,,,,True,A1,poor,not_tested,not_tested,False
+CR21A_120509_001_behaving-504,CR21A,CR21A_120509_001_behaving,504,5,,,,,True,A1,poor,not_tested,not_tested,False
+CR21A_120509_001_behaving-706,CR21A,CR21A_120509_001_behaving,706,7,178.0,lasts to end,0.0,0.0,True,A1,great,pass,pass,True
+CR21A_120510_004_behaving-113,CR21A,CR21A_120510_004_behaving,113,1,170.25,weak,0.02400000000000552,0.028000000000006253,True,PFC,great,pass,pass,True
+CR24A_121019_001_behaving-104,CR24A,CR24A_121019_001_behaving,104,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121019_001_behaving-106,CR24A,CR24A_121019_001_behaving,106,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121019_001_behaving-108,CR24A,CR24A_121019_001_behaving,108,1,230.25,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121019_001_behaving-204,CR24A,CR24A_121019_001_behaving,204,2,202.0,nothing,0.0,0.0,True,PFC,good,fail,pass,False
+CR24A_121019_001_behaving-513,CR24A,CR24A_121019_001_behaving,513,5,,,,,True,A1,poor,not_tested,not_tested,False
+CR24A_121021_001_behaving-105,CR24A,CR24A_121021_001_behaving,105,1,226.75,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121021_001_behaving-116,CR24A,CR24A_121021_001_behaving,116,1,216.5,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-126,CR24A,CR24A_121021_001_behaving,126,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121021_001_behaving-130,CR24A,CR24A_121021_001_behaving,130,1,209.25,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-131,CR24A,CR24A_121021_001_behaving,131,1,186.25,weak,0.024500000000005559,0.034500000000007802,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-132,CR24A,CR24A_121021_001_behaving,132,1,221.5,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-240,CR24A,CR24A_121021_001_behaving,240,2,170.375,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-249,CR24A,CR24A_121021_001_behaving,249,2,187.0,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-257,CR24A,CR24A_121021_001_behaving,257,2,244.0,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-258,CR24A,CR24A_121021_001_behaving,258,2,140.25,weak,0.014000000000003216,0.01800000000000412,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-259,CR24A,CR24A_121021_001_behaving,259,2,256.0,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121021_001_behaving-314,CR24A,CR24A_121021_001_behaving,314,3,119.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-102,CR24A,CR24A_121022_001_behaving,102,1,185.625,lasts to end,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121022_001_behaving-108,CR24A,CR24A_121022_001_behaving,108,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121022_001_behaving-111,CR24A,CR24A_121022_001_behaving,111,1,186.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-112,CR24A,CR24A_121022_001_behaving,112,1,177.375,weak,0.025000000000005702,0.031500000000006981,True,PFC,good,pass,pass,True
+CR24A_121022_001_behaving-116,CR24A,CR24A_121022_001_behaving,116,1,210.375,lasts too long,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121022_001_behaving-122,CR24A,CR24A_121022_001_behaving,122,1,163.5,lasts to end,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-204,CR24A,CR24A_121022_001_behaving,204,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121022_001_behaving-209,CR24A,CR24A_121022_001_behaving,209,2,237.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-214,CR24A,CR24A_121022_001_behaving,214,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121022_001_behaving-216,CR24A,CR24A_121022_001_behaving,216,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121022_001_behaving-221,CR24A,CR24A_121022_001_behaving,221,2,162.625,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-222,CR24A,CR24A_121022_001_behaving,222,2,176.25,weak,0.014000000000003216,0.020500000000004591,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-308,CR24A,CR24A_121022_001_behaving,308,3,194.625,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-311,CR24A,CR24A_121022_001_behaving,311,3,165.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121022_001_behaving-408,CR24A,CR24A_121022_001_behaving,408,4,235.25,weak,0.015500000000003534,0.027000000000006318,True,PFC,good,pass,pass,True
+CR24A_121022_001_behaving-411,CR24A,CR24A_121022_001_behaving,411,4,219.375,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121022_001_behaving-415,CR24A,CR24A_121022_001_behaving,415,4,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121022_001_behaving-417,CR24A,CR24A_121022_001_behaving,417,4,211.125,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121022_001_behaving-511,CR24A,CR24A_121022_001_behaving,511,5,114.375,lasts too long,0.0,0.0,True,A1,great,pass,pass,True
+CR24A_121022_001_behaving-605,CR24A,CR24A_121022_001_behaving,605,6,286.25,nothing,0.0,0.0,True,A1,great,fail,pass,False
+CR24A_121022_001_behaving-610,CR24A,CR24A_121022_001_behaving,610,6,256.25,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR24A_121022_001_behaving-621,CR24A,CR24A_121022_001_behaving,621,6,212.5,too brief,0.0,0.0,True,A1,great,fail,pass,False
+CR24A_121023_001_behaving-103,CR24A,CR24A_121023_001_behaving,103,1,233.75,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121023_001_behaving-118,CR24A,CR24A_121023_001_behaving,118,1,143.875,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121023_001_behaving-122,CR24A,CR24A_121023_001_behaving,122,1,144.75,weak,0.020000000000004684,0.024500000000005559,True,PFC,great,pass,pass,True
+CR24A_121023_001_behaving-123,CR24A,CR24A_121023_001_behaving,123,1,150.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121023_001_behaving-124,CR24A,CR24A_121023_001_behaving,124,1,230.0,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121023_001_behaving-215,CR24A,CR24A_121023_001_behaving,215,2,200.375,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121023_001_behaving-235,CR24A,CR24A_121023_001_behaving,235,2,235.75,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121023_001_behaving-236,CR24A,CR24A_121023_001_behaving,236,2,258.25,nothing,0.0,0.0,True,PFC,good,fail,pass,False
+CR24A_121023_001_behaving-237,CR24A,CR24A_121023_001_behaving,237,2,273.5,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121023_001_behaving-238,CR24A,CR24A_121023_001_behaving,238,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121023_001_behaving-406,CR24A,CR24A_121023_001_behaving,406,4,132.375,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121023_001_behaving-409,CR24A,CR24A_121023_001_behaving,409,4,135.875,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121023_001_behaving-416,CR24A,CR24A_121023_001_behaving,416,4,237.75,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121023_001_behaving-417,CR24A,CR24A_121023_001_behaving,417,4,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121024_001_behaving-103,CR24A,CR24A_121024_001_behaving,103,1,192.0,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121024_001_behaving-118,CR24A,CR24A_121024_001_behaving,118,1,174.875,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121024_001_behaving-122,CR24A,CR24A_121024_001_behaving,122,1,196.0,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121024_001_behaving-124,CR24A,CR24A_121024_001_behaving,124,1,181.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121024_001_behaving-125,CR24A,CR24A_121024_001_behaving,125,1,147.0,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121024_001_behaving-203,CR24A,CR24A_121024_001_behaving,203,2,161.125,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121024_001_behaving-211,CR24A,CR24A_121024_001_behaving,211,2,147.375,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121024_001_behaving-309,CR24A,CR24A_121024_001_behaving,309,3,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121024_001_behaving-409,CR24A,CR24A_121024_001_behaving,409,4,184.75,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121024_001_behaving-410,CR24A,CR24A_121024_001_behaving,410,4,157.0,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121024_001_behaving-609,CR24A,CR24A_121024_001_behaving,609,6,137.125,nothing,0.0,0.0,True,A1,good,insuff,insuff,False
+CR24A_121024_001_behaving-610,CR24A,CR24A_121024_001_behaving,610,6,104.125,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR24A_121026_001_behaving-202,CR24A,CR24A_121026_001_behaving,202,2,151.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121026_001_behaving-203,CR24A,CR24A_121026_001_behaving,203,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121026_001_behaving-402,CR24A,CR24A_121026_001_behaving,402,4,127.125,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121027_001_behaving-102,CR24A,CR24A_121027_001_behaving,102,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121027_001_behaving-111,CR24A,CR24A_121027_001_behaving,111,1,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121027_001_behaving-210,CR24A,CR24A_121027_001_behaving,210,2,149.75,weak,0.025500000000005719,0.029000000000006569,True,PFC,great,pass,pass,True
+CR24A_121027_001_behaving-214,CR24A,CR24A_121027_001_behaving,214,2,108.625,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121027_001_behaving-405,CR24A,CR24A_121027_001_behaving,405,4,230.75,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121029_001_behaving-105,CR24A,CR24A_121029_001_behaving,105,1,149.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121029_001_behaving-107,CR24A,CR24A_121029_001_behaving,107,1,232.25,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121029_001_behaving-124,CR24A,CR24A_121029_001_behaving,124,1,148.25,nothing,0.0,0.0,True,PFC,great,pass,fail,False
+CR24A_121029_001_behaving-208,CR24A,CR24A_121029_001_behaving,208,2,233.25,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121029_001_behaving-209,CR24A,CR24A_121029_001_behaving,209,2,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121029_001_behaving-215,CR24A,CR24A_121029_001_behaving,215,2,152.625,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121029_001_behaving-217,CR24A,CR24A_121029_001_behaving,217,2,181.25,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121029_001_behaving-304,CR24A,CR24A_121029_001_behaving,304,3,232.75,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121029_001_behaving-413,CR24A,CR24A_121029_001_behaving,413,4,170.125,weak,0.028000000000006253,0.034000000000007878,True,PFC,good,pass,insuff,False
+CR24A_121029_001_behaving-415,CR24A,CR24A_121029_001_behaving,415,4,174.5,too brief,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121029_001_behaving-423,CR24A,CR24A_121029_001_behaving,423,4,,,,,True,PFC,poor,not_tested,not_tested,False
+CR24A_121029_001_behaving-507,CR24A,CR24A_121029_001_behaving,507,5,111.75,nothing,0.0,0.0,True,A1,great,pass,pass,True
+CR24A_121030_001_behaving-106,CR24A,CR24A_121030_001_behaving,106,1,176.5,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121030_001_behaving-111,CR24A,CR24A_121030_001_behaving,111,1,168.0,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121030_001_behaving-205,CR24A,CR24A_121030_001_behaving,205,2,219.0,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121030_001_behaving-216,CR24A,CR24A_121030_001_behaving,216,2,217.75,nothing,0.0,0.0,True,PFC,good,pass,pass,True
+CR24A_121030_001_behaving-303,CR24A,CR24A_121030_001_behaving,303,3,131.625,weak,0.022500000000004992,0.029000000000006569,True,PFC,good,pass,pass,True
+CR24A_121031_001_behaving-107,CR24A,CR24A_121031_001_behaving,107,1,209.5,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121101_001_behaving-415,CR24A,CR24A_121101_001_behaving,415,4,126.75,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+CR24A_121101_001_behaving-417,CR24A,CR24A_121101_001_behaving,417,4,151.125,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+YT6A_120130_behaving-102,YT6A,YT6A_120130_behaving,102,1,156.75,,,,False,PFC,good,not_tested,not_tested,False
+YT6A_120130_behaving-103,YT6A,YT6A_120130_behaving,103,1,147.25,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-211,YT6A,YT6A_120130_behaving,211,2,199.5,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-216,YT6A,YT6A_120130_behaving,216,2,149.875,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-218,YT6A,YT6A_120130_behaving,218,2,220.5,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-219,YT6A,YT6A_120130_behaving,219,2,102.5,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-220,YT6A,YT6A_120130_behaving,220,2,201.5,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-221,YT6A,YT6A_120130_behaving,221,2,159.0,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-304,YT6A,YT6A_120130_behaving,304,3,291.25,,,,False,PFC,good,not_tested,not_tested,False
+YT6A_120130_behaving-307,YT6A,YT6A_120130_behaving,307,3,,,,,False,PFC,poor,not_tested,not_tested,False
+YT6A_120130_behaving-315,YT6A,YT6A_120130_behaving,315,3,,,,,False,PFC,poor,not_tested,not_tested,False
+YT6A_120130_behaving-325,YT6A,YT6A_120130_behaving,325,3,273.75,,,,False,PFC,good,not_tested,not_tested,False
+YT6A_120130_behaving-326,YT6A,YT6A_120130_behaving,326,3,238.5,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-327,YT6A,YT6A_120130_behaving,327,3,256.75,,,,False,PFC,great,not_tested,not_tested,False
+YT6A_120130_behaving-328,YT6A,YT6A_120130_behaving,328,3,257.75,,,,False,PFC,good,not_tested,not_tested,False
+YT6A_120201_behaving-205,YT6A,YT6A_120201_behaving,205,2,216.0,too brief,0.0,0.0,True,PFC,good,insuff,insuff,False
+YT6A_120201_behaving-210,YT6A,YT6A_120201_behaving,210,2,175.0,too brief,0.0,0.0,True,PFC,great,pass,insuff,False
+YT6A_120201_behaving-212,YT6A,YT6A_120201_behaving,212,2,217.0,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+YT6A_120201_behaving-215,YT6A,YT6A_120201_behaving,215,2,185.125,nothing,0.0,0.0,True,PFC,good,pass,insuff,False
+YT6A_120201_behaving-218,YT6A,YT6A_120201_behaving,218,2,240.5,weak,0.011500000000002612,0.017000000000003804,True,PFC,good,pass,insuff,False
+YT6A_120201_behaving-222,YT6A,YT6A_120201_behaving,222,2,123.0,weak,0.014000000000003216,0.019500000000004469,True,PFC,great,pass,pass,True
+YT6A_120201_behaving-302,YT6A,YT6A_120201_behaving,302,3,,,,,True,PFC,poor,not_tested,not_tested,False
+YT6A_120201_behaving-306,YT6A,YT6A_120201_behaving,306,3,224.25,nothing,0.0,0.0,True,PFC,great,insuff,insuff,False
+YT6A_120201_behaving-322,YT6A,YT6A_120201_behaving,322,3,,,,,True,PFC,poor,not_tested,not_tested,False
+YT6A_120201_behaving-327,YT6A,YT6A_120201_behaving,327,3,149.25,weak,0.029000000000006569,0.034000000000007878,True,PFC,great,pass,pass,True
+YT6A_120201_behaving-407,YT6A,YT6A_120201_behaving,407,4,172.75,weak,0.010000000000002257,0.025000000000005702,True,PFC,great,fail,pass,False
+YT6A_120201_behaving-409,YT6A,YT6A_120201_behaving,409,4,126.5,too brief,0.0,0.0,True,PFC,great,pass,pass,True
+YT6A_120201_behaving-413,YT6A,YT6A_120201_behaving,413,4,191.25,lasts too long,0.0,0.0,True,PFC,great,pass,pass,True
+YT6A_120202_behaving-208,YT6A,YT6A_120202_behaving,208,2,,,,,True,PFC,poor,not_tested,not_tested,False
+YT6A_120202_behaving-211,YT6A,YT6A_120202_behaving,211,2,245.5,too brief,0.0,0.0,True,PFC,good,pass,insuff,False
+YT6A_120202_behaving-216,YT6A,YT6A_120202_behaving,216,2,,,,,True,PFC,poor,not_tested,not_tested,False
+YT6A_120202_behaving-227,YT6A,YT6A_120202_behaving,227,2,111.25,good,0.015500000000003534,0.02200000000000497,True,PFC,great,pass,pass,True
+YT6A_120202_behaving-228,YT6A,YT6A_120202_behaving,228,2,,,,,True,PFC,poor,not_tested,not_tested,False
+YT6A_120202_behaving-229,YT6A,YT6A_120202_behaving,229,2,226.0,nothing,0.0,0.0,True,PFC,great,pass,pass,True
+YT6A_120202_behaving-302,YT6A,YT6A_120202_behaving,302,3,177.25,weak,0.02950000000000642,0.034500000000007802,True,PFC,great,pass,pass,True
+YT6A_120202_behaving-321,YT6A,YT6A_120202_behaving,321,3,153.0,weak,0.022500000000004992,0.026500000000006026,True,PFC,great,pass,pass,True
