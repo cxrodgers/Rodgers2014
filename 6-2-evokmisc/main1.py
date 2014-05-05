@@ -43,7 +43,7 @@ sdump +=  "* p=%0.4f, Fisher's Exact Test\n" % scipy.stats.fisher_exact([
     [n_audresp_PFC_cells, n_PFC_cells - n_audresp_PFC_cells],])[1]
 with file('stat__comparison_of_prevalence_of_audresp_cells_across_regions', 'w') as fi:
     fi.write(sdump)
-#~ print sdump
+print sdump
 
 # Histogram of strengths
 f, axa = plt.subplots(1, 3, figsize=(9, 3))
