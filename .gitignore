@@ -2,6 +2,8 @@
 stat__*
 *.svg
 *.pdf
+dfoldeds*
+times_distrs*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
