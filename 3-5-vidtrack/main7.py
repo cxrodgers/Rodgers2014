@@ -23,7 +23,8 @@ my.plot.publication_defaults()
 
 
 # Number of times to draw responses from model, to estimate true mean
-N_FAKES = 100
+# 1000 times takes a long time to process, but is necessary for convergence
+N_FAKES = 1000
 
 # Get the actual angles and blocks from analyzed sessions
 full_data = pandas.load('full_data')
