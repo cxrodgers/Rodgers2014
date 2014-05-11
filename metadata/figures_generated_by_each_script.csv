@@ -1,0 +1,89 @@
+dirname,pyfile,typ,panel,description,filename
+2-1-behavres,main02.py,figure,2A,Performance by block,perf_by_session_and_block.svg
+2-1-behavres,main02.py,figure,S2A,Performance by trial type,perf_by_stimtype_line.svg
+2-1-behavres,main03.py,figure,2B,Responses to RIGHTLOW over session,rilo_over_session.svg
+2-1-behavres,main04.py,figure,2C,Overall performance over session,nonblolded_average.svg
+2-1-behavres,main04.py,figure,2D,Overall performance over session,blolded_average.svg
+2-1-behavres,main05.py,figure,S2B,Catch trial task,catch_modest_CR21A.svg
+2-1-behavres,main05.py,figure,S2C,Catch trial task,catch_modest_CR20B.svg
+3-1-hold,main2.py,figure,3A,Example rule-encoding units,exemplar-CR24A_121021_001_behaving-257.pdf
+3-1-hold,main2.py,figure,3B,Example rule-encoding units,exemplar-CR24A_121021_001_behaving-259.pdf
+3-1-hold,main2.py,figure,4A,Example rule-encoding units,exemplar-CR20B_120602_001_behaving-612.pdf
+3-1-hold,main2.py,figure,4B,Example rule-encoding units,exemplar-CR20B_120602_001_behaving-712.pdf
+3-1-hold,main3.py,figure,3C,Rule encoding distribution across neurons in each brain region,PFC_ratio_histogram.svg
+3-1-hold,main3.py,figure,4C,Rule encoding distribution across neurons in each brain region,A1_ratio_histogram.svg
+3-1-hold,main3.py,figure,N/A,Rule encoding presented differently,A1_linear_crucifix.svg
+3-1-hold,main3.py,figure,N/A,Rule encoding presented differently,PFC_linear_crucifix.svg
+3-1-hold,main3.py,figure,S3A,Rule encoding presented differently,A1_diff_histogram.svg
+3-1-hold,main3.py,figure,S3B,Rule encoding presented differently,PFC_log_crucifix.svg
+3-1-hold,main3.py,figure,S4A,Rule encoding presented differently,PFC_diff_histogram.svg
+3-1-hold,main3.py,figure,S4B,Rule encoding presented differently,A1_log_crucifix.svg
+3-1-hold,main3.py,stat,stat,Rule encoding strength and prevalence across brain regions and broken by audresp,stat__rule_encoding_strength_and_prevalence
+3-1-hold,main6.py,figure,"S3D, E",Rule encoding prevalence across rats,PFC_across_rats.svg
+3-1-hold,main6.py,figure,"S4D, E",Rule encoding prevalence across rats,A1_across_rats.svg
+3-2-errhold,main2.py,figure,4D,A1: rule encoding on interference trials,A1_rule_encoding_interference_trials.svg
+3-2-errhold,main2.py,figure,3D,PFC: rule encoding on interference trials,PFC_rule_encoding_interference_trials.svg
+3-2-errhold,main2.py,stat,stat,"3D, 4D figure legend: interference trials and inverted rule encoding",stat__anticipatory_effect_on_error_trials_A1
+3-2-errhold,main2.py,stat,stat,"3D, 4D figure legend: interference trials and inverted rule encoding",stat__anticipatory_effect_on_error_trials_PFC
+3-2-errhold,main3.py,figure,S3C,Rule encoding on various error trials,PFC_omnibus_error.svg
+3-2-errhold,main3.py,figure,S4C,Rule encoding on various error trials,A1_omnibus_error.svg
+3-2-errhold,main3.py,stat,stat,Rule encoding on various error trials,stat__anticipatory_effect_by_all_trial_types_in_both_blocks
+3-3-vs_spont,main3.py,figure,S4F,Bidirectionality of rule encoding vs spontaneous,blocks_vs_true_spont.svg
+3-3-vs_spont,main3.py,stat,stat,Bidirectionality of rule encoding vs spontaneous,stat__spont_rate_vs_hold_period_rate
+3-4-RT_vs_hold,main3.py,figure,S3H,Correlation between anticipatory effect and reaction or movement time,FR_vs_MT_PFC.svg
+3-4-RT_vs_hold,main3.py,figure,S3G,Correlation between anticipatory effect and reaction or movement time,FR_vs_RT_PFC.svg
+3-4-RT_vs_hold,main3.py,figure,S4G,Correlation between anticipatory effect and reaction or movement time,FR_vs_RT_A1.svg
+3-4-RT_vs_hold,main3.py,figure,S4H,Correlation between anticipatory effect and reaction or movement time,FR_vs_MT_A1.svg
+3-4-RT_vs_hold,main3.py,stat,stat,Correlation between anticipatory effect and reaction or movement time,stat__motion_time_vs_hold_period_FR
+3-4-RT_vs_hold,main3.py,stat,stat,Correlation between anticipatory effect and reaction or movement time,stat__reaction_time_vs_hold_period_FR
+3-5-vidtrack,main1.py,figure,"S3I, S4I",Head angle distribution,angl_by_session_121022.svg
+3-5-vidtrack,main1.py,stat,stat,Head angle distribution,stat__head_angle_diffs_by_block
+3-5-vidtrack,main2.py,figure,S3J,Head angle vs example unit spike counts,exemplar-CR24A_121022_001_behaving-116.svg
+3-5-vidtrack,main2.py,figure,S4J,Head angle vs example unit spike counts,exemplar-CR24A_121022_001_behaving-511.svg
+3-5-vidtrack,main2.py,stat,stat,Linear fit between FR and head angle,stat__head_angle_linfits_vs_FR
+3-5-vidtrack,main5.py,figure,S3M,Posture equalization: distribution of population rule encoding,hists.svg
+3-5-vidtrack,main5.py,figure,S3N,Posture equalization: magnitude,PFC_magnitude_comparison_bars.svg
+3-5-vidtrack,main5.py,figure,S3O,Posture equalization: individual pairs,PFC_conn_pairs.svg
+3-5-vidtrack,main5.py,figure,S4N,Posture equalization: magnitude,A1_magnitude_comparison_bars.svg
+3-5-vidtrack,main5.py,figure,S4O,Posture equalization: individual pairs,A1_conn_pairs.svg
+3-5-vidtrack,main5.py,stat,stat,"Stat S3M, S4N: permutation test on PRE",stat__head_angle_PRE_permutation_test
+3-5-vidtrack,main6a.py,figure,S3R,Verification of ANOVA: real regressors,simulation_real_angles_sess0_continous.svg
+3-5-vidtrack,main6a.py,figure,S3T,Verification of ANOVA: poisonified data,simulation_real_angles_sess0_poissonified.svg
+3-5-vidtrack,main6b.py,figure,S3S,Verification of ANOVA: simulated regressors,simulation_simbinom_pflip0.100_r0.72_continous.svg
+3-5-vidtrack,main8.py,figure,N/A,N/A,scatter.svg
+3-5-vidtrack,main8.py,figure,"S3K, S4K","FEV of head angle, block",stacked_bar.svg
+3-5-vidtrack,main8.py,stat,stat,Stat S3K: FEV of head angle,stat__FEV_of_head_angle_in_real_and_sim_data
+5-1-timecourse,main2.py,figure,5D,"Region-averaged timecourse in prefblock, split by go-nogo_lock_cpoke_stop","Region-averaged timecourse in prefblock, split by go-nogo_lock_cpoke_stop_after_all.pdf"
+5-1-timecourse,main2.py,figure,"S5C, D","Region-averaged timecourse, split by prefblock, separately by go-nogo_lock_cpoke_stop","Region-averaged timecourse, split by prefblock, separately by go-nogo_lock_cpoke_stop_after_all.pdf"
+5-1-timecourse,main2.py,figure,S5E,"Region-averaged timecourse, split by block, separately by go-nogo and prefblock_lock_cpoke_stop","Region-averaged timecourse, split by block, separately by go-nogo and prefblock_lock_cpoke_stop_after_all.pdf"
+5-1-timecourse,main2b.py,figure,5C,"Timecourse in prefblock, split by region, locked to stimulus onset_lock_stim_onset","Timecourse in prefblock, split by region, locked to stimulus onset_lock_stim_onset_after_all.pdf"
+5-1-timecourse,main2b.py,figure,S5A,"Timecourse in prefblock, split by region, locked to entering cpoke_lock_stim_onset","Timecourse in prefblock, split by region, locked to entering cpoke_lock_cpoke_start_after_all.pdf"
+5-1-timecourse,main2b.py,figure,S5B,"Timecourse in prefblock, separately by region, following succesful nogo_lock_stim_onset","Timecourse in prefblock, separately by region, following succesful nogo_lock_cpoke_start_after_nogo_hit.pdf"
+5-1-timecourse,main2b.py,stat,stat,Distribution of hold effect duration at the population level,stat__distribution_of_hold_effect_duration_at_the_population level
+5-1-timecourse,main2c.py,figure,S3P,Example neurons with rule encoding during reward consumption,exemplars_PFC_encoding_rule_during_reward.pdf
+5-1-timecourse,main2c.py,figure,S4P,Example neurons with rule encoding during reward consumption,exemplars_A1_encoding_rule_during_reward.pdf
+5-2-timecourse_exemplars,main4.py,figure,5A,Example PFC PSTHs by block,PFC_traces_by_neuron.pdf
+5-2-timecourse_exemplars,main4.py,figure,5B,Example A1 PSTHs by block,A1_traces_by_neuron.pdf
+5-2-timecourse_exemplars,main4.py,stat,stat,IQR median unit rule encoding start and stop; both regions,stat__distribution_rule_encoding_start_and_stop_both_regions
+6-1-evoked,main4.py,figure,6E,Mean decodability of each sound from ensembles of neurons in both regions,MSUA_tuning_by_block_and_sound_both_regions.svg
+6-1-evoked,main4.py,stat,stat,"Stat 6E: decodability ANOVA, post-hocs, N",stat__anova_evoke_decode
+6-1-evoked,main5.py,figure,"S6H, S6I",Rule encoding across stimulus pairs,boxplots_all_indiv_sname.svg
+6-1-evoked,main6.py,figure,S6F,Correlation between tuning and rule encoding,hold_vs_tuneQ_A1_cateq.svg
+6-1-evoked,main6.py,figure,S6G,Correlation between tuning and rule encoding,hold_vs_tuneQ_PFC_cateq.svg
+6-2-evokmisc,main1.py,figure,S6C-E,Parameterizations of auditory response properties across regions,misc_evoked_stats.svg
+6-2-evokmisc,main1.py,stat,stat,"Stat 6C-E: Comparison of prevalence of audresp, evoked strengths, and latencies across regions",stat__audresp_response_parameters_across_regions
+6-2-evokmisc,main1.py,stat,stat,"Stat 6C-E: Comparison of prevalence of audresp, evoked strengths, and latencies across regions",stat__comparison_of_prevalence_of_audresp_cells_across_regions
+6-2-evokmisc,main2.py,figure,S6A,Example auditory PSTHs,typical_psths_CR17B_110731_001_behaving-406.pdf
+6-2-evokmisc,main2.py,figure,S6B,Example auditory PSTHs,typical_psths_CR21A_120503_004_behaving-604.pdf
+6-3-evokgain,main2.py,figure,6A,Evoked example PSTHs,exemplar_1x4_CR21A_120503_004_behaving-604.pdf
+6-3-evokgain,main2.py,figure,6B,Evoked example PSTHs,exemplar_1x4_CR20B_120603_001_behaving-406.pdf
+6-3-evokgain,main2.py,figure,6C,Evoked change vs baseline change correlation plot,PFC_evoked_v_baseline.svg
+6-3-evokgain,main2.py,figure,6D,Evoked change vs baseline change correlation plot,A1_evoked_v_baseline.svg
+6-3-evokgain,main2.py,stat,stat,Stat 6C-D: Correlation between change in evoked and change in baseline,stat__corr_evoked_vs_baseline_change
+6-3-evokgain,main2.py,stat,stat,Stat: Prevalence of significant change in evoked,stat__prevalence_of_significant_change_in_evoked
+7-1-zap,main1.py,figure,7A,"Impairment by block, all trials",all trials by block.svg
+7-1-zap,main1.py,figure,7B,Impairment in example sessions,example sessions.svg
+7-1-zap,main1.py,figure,7C,"Impairment by stimulus type, averaged over sessions","split by rat and type, bar of impairment.svg"
+7-1-zap,main1.py,figure,S7A,"Impairment by rat and type, every session","split by rat and type, connected pairs.svg"
+7-1-zap,main1.py,figure,S7B,Impairment on each stimulus pair,indiv sname impairment.svg
+7-1-zap,main1.py,stat,stat,Stat 7C: Impairment by block and type,stat__zap_by_block_and_gonogo
