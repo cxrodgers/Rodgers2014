@@ -46,4 +46,4 @@ I ran all of my analyses within ipython, version 0.12.1 .
 
 Metadata
 --------
-The scripts can produce figures (typically *.svg or *.pdf) and/or statistics, which are written out as text files begininning with 'stat__'. I have also provided a spreadsheet which links each figure panel with the script that produces it.
+The scripts can produce figures (always ending in *.svg or *.pdf) and/or statistics, which are written out as text files begininning with 'stat__'. I have also provided a spreadsheet at `metadata/figures_generated_by_each_script.csv` which links each figure panel and statistic with the script that produces it. So if you want to regenerate a particular figure, use this spreadsheet to find the associated script. This is subject to the usual caveat that the scripts are designed to be run in order and may assume the results of earlier scripts.
