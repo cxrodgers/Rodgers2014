@@ -36,7 +36,7 @@ outrec_l = []
 for ulabel, inrec in sig_boot_results.iterrows():
     if ulabel not in units_to_analyze:
         print "warning: skipping", ulabel
-    myutils.printnow(ulabel)
+    #~ myutils.printnow(ulabel)
     
     # All the various links
     session_name = kkpandas.kkrs.ulabel2session_name(ulabel)

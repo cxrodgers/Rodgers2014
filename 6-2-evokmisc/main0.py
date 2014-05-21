@@ -16,7 +16,7 @@ trial_picker_kwargs = 'all'
 folding_kwargs = {'dstart': -.050, 'dtstop': .050}
 rec_l = []
 for ulabel in audresp_units.index:
-    myutils.printnow(ulabel)
+    #~ myutils.printnow(ulabel)
     # Get folded and concatenate all trials
     dfolded = my.dataload.ulabel2dfolded(ulabel, 
         trial_picker_kwargs=trial_picker_kwargs)

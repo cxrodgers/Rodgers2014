@@ -28,7 +28,7 @@ refbin = np.argmin(np.abs(bins - 0.))
 # Bin each
 out_l = []
 for ulabel, block2folded in ulabel2block2folded.items():
-    myutils.printnow(ulabel)
+    #~ myutils.printnow(ulabel)
     
     # Bin trials separately
     LB_binned = kkpandas.Binned.from_folded_by_trial(block2folded['LB'], 
