@@ -49,7 +49,7 @@ for session_name in units_to_analyze.session_name.unique():
 # Should skip the ones with no prefblock!
 rec_l, datarec_l = [], []
 for ulabel in units_to_analyze.index:
-    print ulabel
+    #~ print ulabel
     # Get TI
     session_name = kkpandas.kkrs.ulabel2session_name(ulabel)
     trials_info = session2ti[session_name]

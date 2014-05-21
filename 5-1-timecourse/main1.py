@@ -101,7 +101,7 @@ for AFTER_TRIAL_TYPE in after_trial_type_l:
 
         # Iterate over units
         for ulabel in units_to_analyze:
-            my.printnow(ulabel)
+            #~ my.printnow(ulabel)
             
             # Load trials info, then add some events and times
             trials_info = my.dataload.ulabel2trials_info(ulabel)

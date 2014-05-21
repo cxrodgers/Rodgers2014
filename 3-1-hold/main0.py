@@ -21,7 +21,7 @@ units_to_analyze = unit_db[unit_db.include].index
 # Iterate over units
 rec_l = []
 for ulabel in units_to_analyze:
-    myutils.printnow(ulabel)
+    #~ myutils.printnow(ulabel)
     
     # Behavioral info on the session
     session_name = unit_db['session_name'][ulabel]
