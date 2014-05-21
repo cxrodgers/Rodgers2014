@@ -120,6 +120,10 @@ sessions_to_include = gets['session_list']
 ## Run each session
 # Run each session
 for session_name in sessions_to_include:
+    # skip catch trial session
+    if session_name == 'CR20B_120613_001_behaving':
+        continue
+
     # Load
     ratname = kkpandas.kkrs.ulabel2ratname(session_name)
     trials_info = trials_info_dd[ratname][session_name]

@@ -20,14 +20,21 @@ trials_info_dd = dict([(ratname, {}) for ratname in session_db.ratname.unique()]
 
 # Iterate over sessions
 for session_name, row in session_db[session_db.include].iterrows():
+    # skip this catch trial session
+    if session_name == 'CR20B_120613_001_behaving':
+        continue
+    
     # link back to RS
     rs = session2rs(session_name)#, kk_servers, data_dirs)
     
     # Get behavioral data
     trials_info = kkpandas.io.load_trials_info(rs.full_path)
+
+    if 'le_ca_lc' in trials_info.stim_name.values:
+        print session_name
+
+    
     trials_info_dd[row['ratname']][session_name] = trials_info
 
-#~ # Get everything in one list as well
-#~ allti = np.sum([d.values() for d in trials_info_dd.values()])
-
+# Save
 myutils.pickle_dump(trials_info_dd, 'trials_info_dd')
