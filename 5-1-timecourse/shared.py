@@ -188,7 +188,7 @@ def add_time_distrs(concatted, ax, event, yval, bins, maxheight=.5):
     Histogram and display the latencies along `yval` at the bottom of the ax
     """
     event_name2color = {'stim_onset': 'k', 'choice_made': 'g', 
-        'next_start': 'gray', 'prev_rew_stop': 'g', 'prev_nogo_stop': 'r'}
+        'next_start': 'gray', 'prev_rew_stop': 'g', 'prev_nogo_stop': 'gray'}
     
     # Histogram
     counts, edges = np.histogram(concatted, bins=bins)

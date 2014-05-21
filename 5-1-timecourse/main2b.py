@@ -206,7 +206,7 @@ if 'Timecourse in prefblock, separately by region, following succesful nogo' in 
         # previous NOGO
         concatted = concat_series(ax_distrs.swaplevel(0, 1)['prev_nogo_stop'])
         add_time_distrs(concatted, ax=ax, event='prev_nogo_stop', 
-            yval=bottom_edge, bins=distr_bins, maxheight=1.0)
+            yval=bottom_edge, bins=distr_bins, maxheight=0.5)
     
         ## Pretty
         pretty(ax, bottom_edge)
@@ -219,7 +219,7 @@ if 'Timecourse in prefblock, separately by region, following succesful nogo' in 
             ax.set_ylabel('normalized population response')
         f.suptitle('Following a successful nogo trial')
         ax.set_xticks((-3, -2, -1, 0, 1))
-        ax.text(-1.65, -0.85, 'previous nogo trial', color='r', ha='center')
+        ax.text(-1.65, -0.85, 'previous nogo trial', color='gray', ha='center')
         ax.set_yticks((-2, -1, 0, 1, 2))
         f.savefig('Timecourse in prefblock, separately by region, '\
             'following succesful nogo%s.pdf' % suffix)
