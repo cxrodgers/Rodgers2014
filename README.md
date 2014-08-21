@@ -18,7 +18,7 @@ The scripts should be run in order: from lowest to highest numbered subdirectory
 
 Data
 ----
-The data is available at the CRCNS website http://crcns.org .
+The data is available at the CRCNS website http://crcns.org/data-sets/pfc/pfc-1/about-pfc-1 .
 You should first clone this repository. Then download the file `data.zip` from CRCNS, and unzip it into the `Rodgers2014` directory that was created
 when you cloned the repository. Thus, you will have directories like Rodgers2014/data/CR12B, Rodgers2014/data/CR20B, etc.
 
