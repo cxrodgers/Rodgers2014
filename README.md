@@ -24,6 +24,7 @@ when you cloned the repository. Thus, you will have directories like Rodgers2014
 
 I wrote a FAQ on how to read the data on the CRCNS website. However, each script here should load the data by itself without any intervention, as long as the directory structure is the way I described above.
 
+Important: the spike data includes both well-sorted units and bad clusters (artefacts or multi-unit). We only analyzed well-sorted units in the paper and I recommend that you do the same. This csv file (https://github.com/cxrodgers/Rodgers2014/blob/master/metadata/unit_db.csv) tells you which units are good. Only the units that are listed in that table and for which the "include" column is true are well-sorted units.
 
 Required dependencies
 ---------------------
