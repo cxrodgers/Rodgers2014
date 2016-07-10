@@ -243,7 +243,11 @@ def correlogram(t1, t2=None, bin_width=.001, limit=.02, auto=False):
     # Concatenate the recentered spike times into a big array
     # We have excluded spikes outside of the histogram range to limit
     # memory use here.
-    big = np.concatenate([t2[i:j] - t for t, i, j in zip(t1, ii2, jj2)])
+    if len(ii2) == 0:
+        # no data in t2
+        big = np.array([], dtype=np.float)
+    else:
+        big = np.concatenate([t2[i:j] - t for t, i, j in zip(t1, ii2, jj2)])
 
     # Actually do the histogram. Note that calls to numpy.histogram are
     # expensive because it does not assume sorted data.
